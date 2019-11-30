@@ -34,23 +34,23 @@
               url: url,
               data: {},
               success: function(response){
-                // let bike_info= response['rentBikeStatus']['row'];
+                let bike_info= response['rentBikeStatus']['row'];
 
-                // for(let i=0; i<bike_info.length; i++){
-                //   let bike = bike_info[i];
-                //   let stationName = bike['stationName'];
-                //   let rackTotCnt = bike['rackTotCnt'];
-                //   let parkingBikeToCnt=bike['parkingBikeTotCnt'];
-                // }
+                for(let i=0; i<bike_info.length; i++){
+                  let bike = bike_info[i];
+                  let stationName = bike['stationName'];
+                  let rackTotCnt = bike['rackTotCnt'];
+                  let parkingBikeToCnt=bike['parkingBikeTotCnt'];
+                }
               }
             })  
 
-            // let e="<tr>\
-            // <td>"+stationName+"</td>\
-            // <td>" + rackTotCnt + "</td>\
-            // <td>" + parkingBikeToCnt + "</td>\
-            // </tr>";
-            // $('#names-q1').append(e);
+            let e="<tr>\
+             <td>"+ stationName +"</td>\
+             <td>" + rackTotCnt + "</td>\
+             <td>" + parkingBikeToCnt + "</td>\
+             </tr>";
+             $('#names-q1').append(e);
 
 
 
