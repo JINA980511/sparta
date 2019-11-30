@@ -1,0 +1,29 @@
+.container{
+			background-image: url( "http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0");
+			background-size: cover;
+
+			width: 800px;
+			height: 400px;
+
+			text-align:center;
+
+			border-radius: 10px;
+
+			
+
+			
+
+		}
+		h1{
+			margin-bottom: 5px
+		}
+		h5{
+			margin-top: 5px
+		}
+		.wrap{
+			width:300px;
+			margin:30px auto 0px auto;
+		}
+		*{
+			font-family: 'Stylish', sans-serif;
+		}
